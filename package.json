@@ -1,0 +1,15 @@
+{
+  "name": "demo-parent-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "jaketrent",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

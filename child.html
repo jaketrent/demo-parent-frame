@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <script>
+     console.log('child executing...', parent.document, parent.document.getElementById('parentContent'))
+     parent.document.getElementById('parentContent').innerHTML = 'Some content from child iframe'
+    </script>
+  </body>
+</html>
