@@ -3,6 +3,13 @@
     <div id="parentContent">
       This is content set in the parent
     </div>
+    <button id="closeButton">Close Me from Child</button>
     <iframe src="child.html"></iframe>
+
+    <script>
+     document.getElementById('closeButton').addEventListener('click', _ => {
+       console.log('closing after click!')
+     })
+    </script>
   </body>
 </html>

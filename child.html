@@ -3,6 +3,9 @@
     <script>
      console.log('child executing...', parent.document, parent.document.getElementById('parentContent'))
      parent.document.getElementById('parentContent').innerHTML = 'Some content from child iframe'
+     const evt = document.createEvent('HTMLEvents')
+     evt.initEvent('click', true, true)
+     parent.document.getElementById('closeButton').dispatchEvent(evt)
     </script>
   </body>
 </html>
